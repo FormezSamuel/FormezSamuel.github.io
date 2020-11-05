@@ -1,0 +1,138 @@
+/* GENERAL */ 
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background :linear-gradient(#c6cbff, #ffffff);    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 650px; 
+    padding-top: 50px;
+}
+
+.conte{
+    color: rgb(112, 122, 234);
+    line-height: 175%;
+    margin-bottom: 25px;
+}
+
+.conte::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 5px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.return-arrow {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-content: center ;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+.return-arrow svg{
+    margin-right:15px ;
+}
+
+.return{
+    color: rgb(112, 122, 234);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2.0em;
+    
+}
+
+.bloc-gauche{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#return-home{
+    background-color: transparent;
+    font-weight: bold;
+    height: 50px;
+    font-size: 1.5em;
+    color: rgb(112, 122, 234);
+    text-transform: uppercase;
+    border : none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.column-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.espacement-cloud-before{
+    height: 300px;
+}
+
+.espacement-cloud-after{
+    height: 400px;
+}
+
+
+.espacement-start{
+    height: 50px;
+}
+
+.espacement-mid{
+    height: 550px;
+}
+
+
+.espacement-end{
+    height: 100px;
+}
+
+.angel{
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.book{
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+}
+
+
+.cloud{
+    display: flex;
+    justify-content: center;
+    transform: translatey(0px);
+	animation: float 8s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-40px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
