@@ -13,7 +13,7 @@ button5.addEventListener('click',AccessSemaine5);
 function AccessSemaine1(){
     let mdpsemaine1 = document.getElementById('mdp-semaine1').value;
     console.log(mdpsemaine1);
-    if (mdpsemaine1 == "coucou"){
+    if (mdpsemaine1 == "veiller"){
         window.location.href = "./conte-semaine-1.html";
     } else{
         alert("tu as entré un mauvais mot de passe ! Réesssaie! ")
@@ -23,7 +23,7 @@ function AccessSemaine1(){
 function AccessSemaine2(){
     let mdpsemaine2 = document.getElementById('mdp-semaine2').value;
     console.log(mdpsemaine2);
-    if (mdpsemaine2 == "coucou"){
+    if (mdpsemaine2 == "preparer"){
         window.location = "http://www.youtube.com"
     } else{
         alert("tu as entré un mauvais mot de passe ! Réesssaie! ")
@@ -33,7 +33,7 @@ function AccessSemaine2(){
 function AccessSemaine3(){
     let mdpsemaine3 = document.getElementById('mdp-semaine3').value;
     console.log(mdpsemaine3);
-    if (mdpsemaine3 == "coucou"){
+    if (mdpsemaine3 == "lumiere"){
         window.location = "http://www.youtube.com"
     } else{
         alert("tu as entré un mauvais mot de passe ! Réesssaie! ")
@@ -43,7 +43,7 @@ function AccessSemaine3(){
 function AccessSemaine4(){
     let mdpsemaine4 = document.getElementById('mdp-semaine4').value;
     console.log(mdpsemaine4);
-    if (mdpsemaine4 == "coucou"){
+    if (mdpsemaine4 == "accueillir"){
         window.location = "http://www.youtube.com"
     } else{
         alert("tu as entré un mauvais mot de passe ! Réesssaie! ")
@@ -53,7 +53,7 @@ function AccessSemaine4(){
 function AccessSemaine5(){
     let mdpsemaine5 = document.getElementById('mdp-semaine5').value;
     console.log(mdpsemaine5);
-    if (mdpsemaine5 == "coucou"){
+    if (mdpsemaine5 == "naissance"){
         window.location = "http://www.youtube.com"
     } else{
         alert("tu as entré un mauvais mot de passe ! Réesssaie! ")
