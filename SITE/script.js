@@ -16,7 +16,7 @@ function AccessSemaine1(){
     if (mdpsemaine1 == "veiller"){
         window.location.href = "./conte-semaine-1.html";
     } else{
-        alert("tu as entré un mauvais mot de passe ! Réesssaie! ")
+        alert("tu as entré un mauvais mot de passe ! Réessaie! ")
     }
 };
 
@@ -26,7 +26,7 @@ function AccessSemaine2(){
     if (mdpsemaine2 == "preparer"){
         window.location = "http://www.youtube.com"
     } else{
-        alert("tu as entré un mauvais mot de passe ! Réesssaie! ")
+        alert("tu as entré un mauvais mot de passe ! Réessaie! ")
     }
 };
 
@@ -36,7 +36,7 @@ function AccessSemaine3(){
     if (mdpsemaine3 == "lumiere"){
         window.location = "http://www.youtube.com"
     } else{
-        alert("tu as entré un mauvais mot de passe ! Réesssaie! ")
+        alert("tu as entré un mauvais mot de passe ! Réessaie! ")
     }
 };
 
@@ -46,7 +46,7 @@ function AccessSemaine4(){
     if (mdpsemaine4 == "accueillir"){
         window.location = "http://www.youtube.com"
     } else{
-        alert("tu as entré un mauvais mot de passe ! Réesssaie! ")
+        alert("tu as entré un mauvais mot de passe ! Réessaie! ")
     }
 };
 
@@ -56,7 +56,7 @@ function AccessSemaine5(){
     if (mdpsemaine5 == "naissance"){
         window.location = "http://www.youtube.com"
     } else{
-        alert("tu as entré un mauvais mot de passe ! Réesssaie! ")
+        alert("tu as entré un mauvais mot de passe ! Réessaie! ")
     }
 };
 
