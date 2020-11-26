@@ -109,6 +109,14 @@ body{
 	animation: float 6s ease-in-out infinite;
 }
 
+.mirror{
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
 .book{
     width: 100%;  
     display: flex;
@@ -125,7 +133,11 @@ body{
 
 }
 
-
+.heartbroken{
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+}
 
 
 .cloud{
