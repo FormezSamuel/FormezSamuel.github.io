@@ -54,10 +54,6 @@ body{
     box-shadow: 12px 12px 2px 0.5px rgba(112, 122, 234, 0.1);
 }
 
-.conte-part4{
-    opacity: 0.3;
-}
-
 /* Paragraphe explicatif */ 
 
 .explain p {
@@ -72,6 +68,11 @@ body{
     height: 50px;
 }
 
+.nawel{
+    opacity: 0.3;
+    height: auto;
+    width: auto;
+}
 
 /* SEMAINE 1 */
 
