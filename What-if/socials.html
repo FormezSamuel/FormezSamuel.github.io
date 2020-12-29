@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What.if</title>
+    
+    <style>
+        body {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/socials.css">
+    <link rel="stylesheet" href="bot.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <h1>What.if</h1>
+            </div>
+            <div id="search">
+                <label><img src="images/shapes-and-symbols.svg" /></label>
+                <input type="search" placeholder="rechercher" />
+            </div>
+            <div id="menu">
+                <img src="images/social-media.svg" />
+                <img src="images/love-and-romance.svg" />
+                <img src="images/communications.svg" />
+                <img src="images/elsa-rounded.png" />
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div id="thread"></div>
+
+            <div id="container">
+                <div id="peekobot-container">
+                    <div id="peekobot"></div>
+                </div>
+                <button type="button" id="reset" class="reset">Reset</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="conversation.js"></script>
+    <script src="bot.js"></script>
+
+    <script>
+        $('#reset').on('click', function() {
+            document.location.reload(true);
+        });
+    </script>
+</body>
+</html>
